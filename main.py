@@ -17,4 +17,3 @@ def handle_all_messages(message):
 
 print("बॉट पूरी तरह चालू हो गया है!")
 bot.infinity_polling(timeout=10, long_polling_timeout=5)
-
