@@ -1,7 +1,6 @@
 import telebot
 
-API_TOKEN = '8227558544:AAGtAPJs4oi7Ac8RB88FA2kN3wuMMXpOl7o'
-
+API_TOKEN = '822758544:AAGtAPJs4oi7Ac8RB88FA2kN3wuMMXpOl7o'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(func=lambda message: True)
@@ -17,3 +16,4 @@ def handle_all_messages(message):
 
 print("बॉट पूरी तरह चालू हो गया है!")
 bot.infinity_polling(timeout=10, long_polling_timeout=5)
+
